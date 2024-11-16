@@ -30,6 +30,9 @@ public class LandingPage extends AbstractComponent{
 	@FindBy(id="userPassword")
 	WebElement passwordEle;
 	
+	@FindBy(id="form-submit")
+	WebElement Submit; 
+	
 	@FindBy(id="login")
 	WebElement submit;
 	@FindBy(css="[class*='flyInOut']")
